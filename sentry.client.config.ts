@@ -7,7 +7,7 @@ import * as Sentry from "@sentry/nextjs";
 Sentry.init({
   dsn: "https://79cfbc5db923ef81f00019dc9e80359f@o4509755838693376.ingest.de.sentry.io/4509755860058192",
   integrations: [
-    Sentry.replayIntegration(),
+    // Sentry.replayIntegration(),
     Sentry.feedbackIntegration({
       // Additional SDK configuration goes in here, for example:
       autoinject: true,
